@@ -21,7 +21,7 @@ import notificationServer from '#bin/notificationServer.js';
  * Get port from environment and store in Express.
  */
 
-var port = normalizePort('33011');
+var port = normalizePort('80');
 app.set('port', port);
 
 /**

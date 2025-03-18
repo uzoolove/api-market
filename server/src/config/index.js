@@ -24,7 +24,7 @@ export const jwt = {
       // expiresIn: '2h',  // 2시간
       // expiresIn: '10m', // 10분
       // expiresIn: '10s',  // 10초
-      issuer: 'FESP', // 발행자
+      issuer: 'FEBC', // 발행자
     },
   },
   refresh: {
@@ -33,7 +33,7 @@ export const jwt = {
       algorithm: 'HS256',
       expiresIn: '30d',
       // expiresIn: '30s',
-      issuer: 'FESP',
+      issuer: 'FEBC',
     },
   }
 };
