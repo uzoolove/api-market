@@ -2890,7 +2890,7 @@ const doc = {
 
 
 const outputFile = './swagger-output.json';
-const routes = ['./routes/user/index.js', './routes/seller/index.js', './routes/admin/index.js', './routes/system/index.js'];
+const routes = ['./src/routes/user/index.js', './src/routes/seller/index.js', './src/routes/admin/index.js', './src/routes/system/index.js'];
 
 
 const options = {
